@@ -16,7 +16,7 @@ services:
     image: awalach/openvpn-web-ui
     container_name: openvpn-gui
     ports:
-     - "8080:8080/tcp"
+     - "8181:8181/tcp"
     restart: always
     volumes:
      - ./openvpn-data/conf:/etc/openvpn
