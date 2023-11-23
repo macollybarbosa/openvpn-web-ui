@@ -29,7 +29,7 @@ Please note this project is in alpha stage. It still needs some work to make it 
 
 ## Usage
 
-After startup web service is visible on port 8080. To login use the following default credentials:
+After startup web service is visible on port 8181. To login use the following default credentials:
 
 * username: admin
 * password: b3secure (this will be soon replaced with random password)
@@ -44,7 +44,7 @@ Requirements:
 
 Execute commands
 
-    curl -O https://raw.githubusercontent.com/adamwalach/openvpn-web-ui/master/docs/docker-compose.yml
+    curl -O https://github.com/macollybarbosa/openvpn-web-ui/blob/master/docs/docker-compose.yml
     docker-compose up -d
 
 It starts two docker containers. One with OpenVPN server and second with OpenVPNAdmin web application. Through a docker volume it creates following directory structure:
